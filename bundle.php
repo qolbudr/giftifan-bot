@@ -1,6 +1,6 @@
 <?php
 
-$pharfile = 'fancast.phar';
+$pharfile = 'giftifan.phar';
 if (file_exists($pharfile)) {
     unlink($pharfile);
 }
