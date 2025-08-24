@@ -1,0 +1,7 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "symfony/console": "^7.3",
+        "povils/figlet": "^0.1.0"
+    }
+}
