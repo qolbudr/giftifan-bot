@@ -82,7 +82,7 @@ class AdNetworks
 	 * @param string[] $videoStartUrls
 	 */
 	public function __construct(
-		string $adNetworkTimeoutMillis,
+		?string $adNetworkTimeoutMillis,
 		string $adSourceId,
 		string $adSourceInstanceId,
 		string $adSourceInstanceName,
