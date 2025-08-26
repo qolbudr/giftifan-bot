@@ -42,7 +42,7 @@ class Ads
 
 class AdNetworks
 {
-	public string $adNetworkTimeoutMillis;
+	public ?string $adNetworkTimeoutMillis;
 	public string $adSourceId;
 	public string $adSourceInstanceId;
 	public string $adSourceInstanceName;
@@ -124,7 +124,7 @@ class AdNetworks
 	public static function fromJson(\stdClass $data): self
 	{
 		return new self(
-			$data->ad_network_timeout_millis,
+			$data->ad_network_timeout_millis ?? null,
 			$data->ad_source_id,
 			$data->ad_source_instance_id,
 			$data->ad_source_instance_name,
